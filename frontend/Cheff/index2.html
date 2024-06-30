@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Das Kebab</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .summary {
+            text-align: right;
+            padding-right: 20px;
+        }
+        .menu {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .menu img {
+            margin: 10px;
+        }
+        .payment-method {
+            text-align: center;
+            margin-top: 20px;
+            border-top: 1px solid #000;
+            padding-top: 10px;
+        }
+        .payment-method label {
+            margin: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Das Kebab</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nr</th>
+                <th>Orders</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Add rows as needed -->
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" class="summary">
+                    <strong>Total:</strong><br>
+                    <strong>type:</strong>
+                </td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="menu">
+        <h2>the menu</h2>
+        <!-- Replace with actual image paths -->
+        <img src="circle.png" alt="Option 1">
+        <img src="circle.png" alt="Option 2">
+        <img src="circle.png" alt="Option 3"><br>
+        <img src="circle.png" alt="Option 4">
+        <img src="circle.png" alt="Option 5">
+        <img src="circle.png" alt="Option 6"><br>
+        <img src="circle.png" alt="Option 7">
+        <img src="circle.png" alt="Option 8">
+        <img src="circle.png" alt="Option 9"><br>
+        <img src="circle.png" alt="Option 10">
+        <img src="circle.png" alt="Option 11">
+        <img src="circle.png" alt="Option 12">
+    </div>
+
+    <div class="payment-method">
+        <label>
+            <input type="radio" name="payment" value="cash"> cash
+        </label>
+        <label>
+            <input type="radio" name="payment" value="card"> card
+        </label>
+    </div>
+</body>
+</html>
